@@ -1,10 +1,10 @@
 import {Component} from 'react'
 
-export default class Name extends Component{
+export default class Admin extends Component{
 
   render(){
     return (
-      <div></div>
+      <div>Admin</div>
     )
   }
 }
