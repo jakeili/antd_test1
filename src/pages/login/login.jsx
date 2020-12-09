@@ -12,6 +12,7 @@ class Login extends Component{
       if (!err) {
         // 验证通过发送请求
         console.log('验证通过发送请求: ', values);
+        this.props.history.push('/')
       }else{
         // 验证不通过
         alert('你所填写的内容不符合验证规则')
